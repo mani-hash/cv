@@ -1,0 +1,83 @@
+
+\documentclass[10pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+
+\geometry{left=1.5cm, top=1.5cm, right=1.5cm, bottom=1.5cm}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlist[itemize]{leftmargin=*, noitemsep, topsep=2pt}
+
+\definecolor{primary}{RGB}{0, 0, 0}
+\hypersetup{colorlinks=true, urlcolor=black}
+
+\titleformat{\section}{\large\bfseries\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{10pt}{5pt}
+
+\begin{document}
+
+\begin{center}
+    {\huge \textbf{Manimehalan Thiyagarajan}} \\
+    \vspace{4pt}
+    Software Engineer Intern \\
+    \vspace{4pt}
+    \href{mailto:manimehalan400@gmail.com}{manimehalan400@gmail.com} | +94779054195 \\
+    \href{https://www.linkedin.com/in/manimehalan/}{linkedin.com/in/manimehalan} | \href{https://github{.}com/mani-hash}{github.com/mani-hash}
+\end{center}
+
+\section{Skills}
+\textbf{Core Technologies:} Python (FastAPI), Fastify, Next js, gRPC, GCP Big Query, TypeScript, Laravel, Lua, PostgreSQL \\
+\textbf{Tools \& Paradigms:} Kubernetes, Microservices (GCP), DevOps, Redis, Object-Oriented Programming (OOP), RDBMS, RESTful API, Git, Agile
+
+\section{Work Experience}
+\textbf{Software Engineer Intern} \hfill October 2025 \textendash{} Present\\
+\textit{Alphintra (Part-time, Remote)} \hfill 7 mos
+\begin{itemize}
+    \item Architected a high-throughput multi-exchange market data service utilizing WebSockets to ingest real-time data for spot and futures across Binance, KuCoin, Bybit, and Bitget.
+    \item Engineered a scalable inference engine using consistent hashing to distribute strategy execution across a dynamic cluster of pods, ensuring horizontal scalability.
+    \item Refined financial integrity by identifying and resolving critical backend bugs within the in-app credit transaction system, ensuring 100\% accuracy in user balances and ledger entries.
+    \item Contributed to frontend development of cipherlux webpage.
+\end{itemize}
+
+\textbf{Fullstack Web Developer} \hfill Jul 2024 \textendash{} Feb 2025 \\
+\textit{Self-Employed (Part-time, Remote)} \hfill 7 mos
+\begin{itemize}
+    \item Managed end-to-end development lifecycles for multiple clients, ensuring on-time delivery and adherence to budget constraints through efficient resource planning.
+    \item Collaborated with shareholders to define project scope, user stories, and acceptance criteria.
+    \item Implemented Git-based workflows and Agile sprint planning to track progress and incorporate continuous client feedback.
+    \item Engaged in contributing to open source projects relevant to ongoing freelance assignments.
+\end{itemize}
+
+\section{Projects}
+\textbf{Cipherlux \textendash{} AI Trading Engine} \hfill September 2025 \textendash{} April 2026 \\
+\textit{Technologies: Python (FastAPI), Fastify, NextJS, Redis, Big Query, Kubernetes, Cloud Run}
+\begin{itemize}
+    \item Built a unified market data engine supporting 4+ major crypto exchanges, normalizing separate API schemas into a high-performance internal stream
+    \item Implemented a load-balancing layer using consistent hashing algorithms to ensure horizontal scalability and fault tolerance for strategy inference.
+    \item Leveraged GKE (Google Kubernetes Engine) to orchestrate a containerized backend, managing both real-time data ingestion and computationally intensive strategy execution.
+    \item Designed a custom execution environment for third-party strategies, ensuring isolation and security via GCP-based sandboxing.
+    \item Engineered backend modules for managing in-app credits, implementing validation logic to prevent race conditions during concurrent transactions.
+    \item Developed responsive frontend components to allow users to monitor their `Cipherlux' portfolio and manage their in-app credits.
+\end{itemize}
+
+\textbf{SeekAServe \textendash{} Service Marketplace} \hfill Oct 2023 \textendash{} Present \\
+\textit{Technologies: Laravel, React, TypeScript, Docker, MariaDB, Horizon, Reverb}
+\begin{itemize}
+    \item Developed an extensive backend API using Laravel and Eloquent ORM\@.
+    \item Created a Single Page Application (SPA) frontend using React JS, TypeScript, and MVVM architecture.
+    \item Developed a sophisticated chat system using Reverb and PHP\@.
+    \item Built a custom CI/CD solution integrated with GitHub Actions for best cost-to-performance ratio.
+    \item Integrated third-party tools such as Twilio, including custom fixes and solutions.
+\end{itemize}
+
+\section{Education}
+\textbf{Bachelor's Degree: Computer Science} \hfill May 2024 \textendash{} May 2028 \\
+University of Colombo School of Computing, Sri Lanka \hfill GPA\@: 3.28
+
+\end{document}
