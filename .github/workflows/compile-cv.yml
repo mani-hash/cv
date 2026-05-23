@@ -27,6 +27,6 @@ jobs:
         with:
           tag_name: latest
           name: 'Latest CV Build'
-          body: 'Automated build of the latest CV from the main branch.'
+          body: 'Automated build of my latest CV from the main branch.'
           files: |
-            cv.pdf
+            Manimehalan_CV.pdf
